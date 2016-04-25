@@ -9,9 +9,9 @@
             "email": "leichti@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "illuminate/support": "^5.3@dev"
+        "illuminate/support": "^5.2"
     },
     "autoload": {
         "psr-4": {
