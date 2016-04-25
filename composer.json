@@ -1,0 +1,25 @@
+{
+    "name": "leichti/molweight",
+    "description": "Calculator to work with chemical compounds.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manuel Leuchtenmueller",
+            "email": "leichti@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.3@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leichti\\Molweight\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/php-code-coverage": "3.3",
+        "phpunit/phpunit": "^5.3"
+    }
+}
